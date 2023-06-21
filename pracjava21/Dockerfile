@@ -4,6 +4,6 @@ WORKDIR /out
 
 COPY *.java .
 
-RUN javac Hello.java
+RUN javac --release 21 --enable-preview Main.java
 
-CMD ["java", "Hello", "--version"]
+CMD ["java", "--enable-preview", "Main"]
