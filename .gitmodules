@@ -1,0 +1,3 @@
+[submodule ".\\dotnet-docker\\"]
+	path = .\\dotnet-docker\\
+	url = https://github.com/dotnet/dotnet-docker
